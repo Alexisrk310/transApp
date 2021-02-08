@@ -25,3 +25,21 @@ header{
     margin: 12px 0;
 
 }
+
+.interfax{
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.prop{
+    /* color cambiar */
+    background-color: #00faa0;
+    width: 320px;
+    height: 50px;
+    margin: 8px ;
+}
