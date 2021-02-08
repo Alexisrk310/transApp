@@ -11,3 +11,17 @@ header{
     height: 75px;
     background-color: rgb(68, 170, 238);
 }
+
+.inputs{
+    margin: 12px 0;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs > input {
+    width: 270px;
+    margin: 12px 0;
+
+}

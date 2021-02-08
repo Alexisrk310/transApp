@@ -5,16 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>transApp</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>transApp</title>
 </head>
 
 <body>
     <header>
         <label>transApp</label>
     </header>
-    <input type="text">
-    <input type="text">
+    <form class="inputs">
+        <input type="text" placeholder="Nombre completo del Solicitante" autocomplete="none">
+        <input type="text" placeholder="Nombre de la empresa" autocomplete="none">
+        <label for="">Documentos...., en pdf</label>
+        <input type="file" name="" id="" autocomplete="">
+        <input type="text" placeholder="Posicion de bodega" autocomplete="none" readonly>
+        <input type="text" placeholder="Posicion de entrega" autocomplete="none" readonly>
+        <div class="mapa"></div>
+        <input type="submit" value="Enviar">
+        
+    </form>
     <script src="assets/js/app.js"></script>
 </body>
 
