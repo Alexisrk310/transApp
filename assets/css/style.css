@@ -23,6 +23,7 @@ header{
 .inputs > input {
     width: 270px;
     margin: 12px 0;
+    outline: none;
 
 }
 
@@ -42,4 +43,11 @@ a{
     width: 320px;
     height: 50px;
     margin: 8px ;
+}
+
+
+/* MAPA */
+#mapid { height: 350px;
+width: 360px; 
+
 }

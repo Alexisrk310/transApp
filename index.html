@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>transApp</title>
+    <!-- CSS MAP -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
 </head>
 
 <body>
@@ -20,10 +24,14 @@
         <input type="file" name="" id="" autocomplete="">
         <input type="text" placeholder="Posicion de bodega" autocomplete="none" readonly>
         <input type="text" placeholder="Posicion de entrega" autocomplete="none" readonly>
-        <div class="mapa"></div>
+        <div id="mapid"></div>
         <input type="submit" value="Enviar">
-        
+
     </form>
+    <!-- SCRIPT MAP -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
     <script src="assets/js/app.js"></script>
 </body>
 
